@@ -49,11 +49,12 @@ ul{
 li {
     display: flex;
     align-items: center;
+    padding:  10px 0px;
 }
 li p {
     flex: 1;
 }
-li .todo {
+li .todos {
     background: darkorange;
     flex: 0 0 20px;
     height: 20px;
@@ -61,7 +62,7 @@ li .todo {
     margin-right:15px ;
     border: 2px solid darkorange;
 }
-li .todo.done {
+li .todos.done {
     background: darkorange;
 
 }
